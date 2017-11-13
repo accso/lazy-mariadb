@@ -1,7 +1,7 @@
 #! /bin/bash
 echo "Parameter '$@'"
-echo "Schlafe für 30 Sekunden..."
-sleep 5
+echo "Schlafe für ${WARTEZEIT} Sekunden..."
+sleep ${WARTEZEIT}
 echo "Aufgewacht!"
 ls -l /
 /entrypoint.sh $@
