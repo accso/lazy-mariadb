@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t lazy-mysql:latest .
+docker build -t accso/lazy-mysql:latest .
