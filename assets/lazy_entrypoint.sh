@@ -3,4 +3,4 @@ echo "Parameter '$@'"
 echo "Schlafe für ${WARTEZEIT} Sekunden..."
 sleep ${WARTEZEIT}
 echo "Aufgewacht!"
-/entrypoint.sh $@
+/usr/local/bin/docker-entrypoint.sh $@
